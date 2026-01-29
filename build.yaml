@@ -7,12 +7,9 @@
 #
 # board: [ "nice_nano" ]
 # shield: [ "corne_left", "corne_right" ]
-# include:
-#   - board: bdn9_rev2
-#   - board: nice_nano
-#     shield: reviung41
-#   - board: nice_nano
-#     shield: corne_left
+include:
+  - board: nrf52840dk_nrf52840
+    shield: villain11
 #     snippet: studio-rpc-usb-uart
 #     cmake-args: -DCONFIG_ZMK_STUDIO=y
 #     artifact-name: corne_left_with_studio

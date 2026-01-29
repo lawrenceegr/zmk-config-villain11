@@ -1,0 +1,3 @@
+config SHIELD_VILLAIN11
+    def_bool $(shields_list_contains,villain11)
+    

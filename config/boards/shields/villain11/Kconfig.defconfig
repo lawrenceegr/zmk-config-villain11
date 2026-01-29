@@ -1,0 +1,6 @@
+if SHIELD_VILLAIN11
+
+config ZMK_KEYBOARD_NAME
+    default "villain11"
+    
+endif
